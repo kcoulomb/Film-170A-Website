@@ -1,0 +1,75 @@
+@font-face {
+	font-family: 'hitch hike';
+	src: url('hitch_hike/Hitch-hike.otf') format('opentype');
+}
+
+body {
+	background-color: #FFFFFF;
+	text-align: center;
+	border-top: solid #121212 0.2em;
+	border-bottom: solid #121212 0.2em;
+	padding: 0em 0.4em 0.4em 0.4em;
+}
+
+canvas {
+	border: solid #121212 0.2em;
+}
+
+h1 {
+	font-family: 'hitch hike';
+	text-align: center;
+	padding-top: 0.4em;
+}
+
+h2 {
+	font-family: 'hitch hike';
+	text-align: center;
+}
+
+a:link {
+	color: #CCCCFF;
+}
+
+a:visited {
+	color: #CCCCFF;
+}
+
+.standard-margin {
+	margin: .1em 2em .1em 2em;
+	font-family: 'Lucida Sans Unicode';
+}
+
+.nonstandard-margin {
+	text-align: left;
+	margin: .1em 5em .1em 5em;
+	font-family: 'Lucida Sans Unicode';
+}
+
+.quote {
+	margin: .1em 5em .1em 5em;
+	font-family: 'Lucida Sans Unicode';
+	font-style: italic;
+	padding: 0.5em 0 0.5em 0;
+}
+
+.side-by-side {
+	display:inline-block;
+}
+
+#hovertext .text {
+	position: absolute;
+	bottom: 10px;
+	left: 30px;
+	visibility: hidden;
+	font-family: 'Lucida Sans Unicode';
+	font-size: 30px;
+}
+
+#hovertext:hover .text {
+	visibility: visible;
+}
+
+#canvas{
+	width: 1200;
+	height: 781;
+}
